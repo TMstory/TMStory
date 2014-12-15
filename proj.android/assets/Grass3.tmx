@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="600" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grass_bg" tilewidth="32" tileheight="32">
+  <image source="Grass_bg.png" width="213" height="48"/>
+ </tileset>
+ <tileset firstgid="7" name="mask" tilewidth="32" tileheight="32">
+  <image source="mask.png" width="842" height="119"/>
+  <tile id="27">
+   <properties>
+    <property name="start" value="1"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="end" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="grass" width="600" height="80">
+  <data encoding="base64" compression="zlib">
+   eJzt3YtOwyAUAFDn6/8/2ZrGuOhKSwf0AuckRLNFR7uywS1cXl4AAAAAAAAAAACI5raU16W8LeV9KR8bj30mHq9Vj9Rr5tQbAAAAgMdKxGTEXwAAAACA3kSJgYrRQnva3XVKnXvvCQAAXGuGvvoz45SRzgM841awaFMAAADXkwMKAAAAAADgvwj7a2z9vfV7Y/H+AQAAcC9nLV5OPMI4Ep4nHgf90F6hvlLtTFujR9bdQTyt+n/yL49NXi0AAABa2ho/5s4N+fldHAIAqGWrPyF3KQAAAMA55p0CAPAt1f9Lrcn9WxifMQQz2bp+XesAAAAA7YlBAgAAAAAAAGeczV3nvuNqpn2QIuwDFaEOqXpEOvaS/6vXa/YKzi1Af0rsQeHznFmkcivM3A6ijFMAAIB8+vMAAAAAAAAAAAAA/cuZ42neJ72InhPInGsAAAAgumfjhgCjSX0unnlODBhoba9/J08wAAAAADCD24NydO2M+f4AAAD9MLYDAAAAeldj3/Cj98jFUAAAgNLkwW/j6Hl2jgGAXOLG3KtxD8P1AwBAS7l91LPP1ah3q6KvDgAA+1rGxc+MSWr07a8YS5Q4vr19pYyJAAAAAAAAACAWeUoAYNVqruLW393/3Pse9p0MAAAAUF9qHeTRx4HxyQ8bX6Tcvq4XAAAAAOhHhDyoLWKHreZK2+MXAAAAmN2ZuckAjCX1XXCkAAAAj4m5wDhqtWfre9OO7DU+2zkBAOjB1Tn1R19vA0Bs9lsDqMdn7KpEXuqRzgcAAAAAAADQzta9x9Q8zhqvd9V90Zr7TkbO7Q4AAAAAtFEqhjfLPpetRT3WqPUqKeqx5MT7o9QZAABKmWEsAiPRNgEAAAAAAAAAuJI9hwAAgFZq5o49MjapmaPWeOlX9LVNR3I493oMUeoHwKpk32fruS+VXhn4
+  </data>
+ </layer>
+ <layer name="mask" width="600" height="80" opacity="0.34">
+  <data encoding="base64" compression="zlib">
+   eJzt3QFuwjAMBVDOwv0POaFtEmjAqq1JvuP3LlDHbVLHQeVyAQAAAAAAAAAAIM11dQBfUuIAAAAA6ERPBgAAAADoKKU3mhIHdGLerSP3AACwhw61fYcxwmjmEQAAwF7s8wAAAAAAAH5KOENJiIHx3GcAAADu2SdCLvMT6jBfYTzzjM48/5Bn1rw0//fm/gIAADCTfSgAUIW6BQAAAOBc+i0AANyoCznKs0InnncAAACAHHo1AAAAAAAAwF84a/yfTvlLGGtCDDcr4jjzmil53JHcAtRj7YbjzJfn5AUAAOpSzwMAAAAAAAAAAADU5zeh7Cj9uU6PDwAAAED/AuCRdRGozjoGAAAAAKBXCgAA0IX9HwAAAFCd/gYAALATe5w55BkAGEWdwT3PAwAA1VWtaavGDQAAu5pZo6fsB1bEccY1U/IHAAAAAAAAAPzuenHWDwDfZr0TvXsBAAAAatDHAY6wVuRLukdJsQAAAAAA73X5DurZ19YHBQAAAHhO3wQA7wIAABhDrQ37GDWfrRPvyQ8AQE0dvqmvVgXgFe8IgHGssZ/kAQAAAAAAAFhl9nll2vloWjyvVIkTAAAAAHh0Vm+vy/9czpY61tS4zpQ6xtS4AABgBvUw1GLOAgAAAAAAAACwkt+vAAAAs6zef6y+fhfpeU6P74gdxgDQwYz1+gOwJQ3z
+  </data>
+ </layer>
+ <layer name="mask1" width="600" height="80" opacity="0.53">
+  <data encoding="base64" compression="zlib">
+   eJzt3cl1wzAMBUCXk/4rzPPLIfFJUsTlA5opIARXgZDtvF4AAAAAAAAAAAB087U7gAPp8QEAAABUp/4CAAAAAHSWXgNNjw86su/ymBMAAMgkV/9hHGAsewoAAKAedzkAAAAAAIDz0t6tpMXDNeYPAACAK9wjYT/7EOqwX2ENe43OrG+oZfee3d0+c5lfAAAAkrinAgC7yEMAAAAAxlBnAQDgTV7IWdYKT2GtAwAAAOyhLgMAAAAAAADc5b3jWE8fz4T+74phRrsr+pIwZ10ZW4AenOdgH4xgDAEAoC75PAAAAAAAAAAAAEANPvdJJ5XWc6VYAQAAgGdRtwC4z1kKJHEmAQAAAABco64KAABQn7sdAAAAwDE1FAAAYAV3j/mMMQAwiryCO6wfAAC66JbbdusPAACkWJ1ray/r7wIAAAAAAAAAc3jXDwC/dj4XPZMBAAAAsqjXAGc5L+raMXfWCwAAAADUsbKet6KtmW2ofQIAAAB8Ui8B4C/PBQAAGENuDX10+T/elRkTAID6duV03b5vA0A9ng8A8zhjPxkPAAAAAAAAYLbd7yV3t39X9d92BwAAAADu8737XlL7mhrXf1TsS8WYAQBgBLkwZLI3AQAAAAAAAABI4zMtAABAgsS7SWJMVXQYu/Q+pMcHwLH3Wf4NptgQQQ==
+  </data>
+ </layer>
+ <objectgroup name="object" width="600" height="80">
+  <object name="NormalMushroom1" x="96" y="2528" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="224" y="2528" width="32" height="32">
+   <properties>
+    <property name="Nmae" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="320" y="2528" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="480" y="2528" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="640" y="2528" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="416" y="2304" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="512" y="2304" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="640" y="2304" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="832" y="2304" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="NormalMushroom1" x="768" y="2048" width="32" height="32">
+   <properties>
+    <property name="Name" value="NormalMushroom1"/>
+   </properties>
+  </object>
+  <object name="Snake" x="1728" y="1760" width="32" height="32">
+   <properties>
+    <property name="Behind" value="13"/>
+    <property name="Front" value="9"/>
+    <property name="Name" value="Snake"/>
+   </properties>
+  </object>
+  <object name="Snake" x="1024" y="2048" width="32" height="32">
+   <properties>
+    <property name="Behind" value="7"/>
+    <property name="Front" value="10"/>
+    <property name="Name" value="Snake"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,4 +1,4 @@
 TMStory
 =======
 
-This is TMstory Game
+This is a TMstory Game
